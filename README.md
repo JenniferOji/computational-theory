@@ -19,9 +19,25 @@ Key sections (see [problems.ipynb](problems.ipynb)):
 - Problem 5 : Simple dictionary attack demo:
   - Uses [`find_password`](problems.ipynb) and the included wordlist [common_passwords_10000.txt](common_passwords_10000.txt)
 
+Files
+- [problems.ipynb](problems.ipynb) : full notebook .
+- [common_passwords_10000.txt](common_passwords_10000.txt) : wordlist used by the demo.
+- [requirements.txt](requirements.txt) : Python dependencies.
+
+Requirements 
+- Python 3.8+ - https://www.python.org/ : runtime required to run the notebook and scripts.
+- NumPy - https://numpy.org/doc/stable/ : used for numeric types and vector ops (`numpy.uint32`, `numpy.cbrt`).
+- SymPy - https://docs.sympy.org/latest/ : used for prime generation (see `sp.primerange`, `sp.prime`).
+- Jupyter - https://jupyter.org/ : view & run [problems.ipynb](problems.ipynb).
+- VS Code Notebooks - https://code.visualstudio.com/docs/datascience/jupyter-notebooks : convenient in‑IDE execution.
+- FIPS 180‑4 (SHA spec) - https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf : authoritative reference for constants and algorithm steps.
+
+
 Prerequisites
 - Python 3.8+ with numpy and sympy installed:
 ```sh
 pip install numpy sympy
 ```
+
+
 
