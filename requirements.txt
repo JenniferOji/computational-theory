@@ -1,2 +1,4 @@
+# NumPy for precise 32-bit unsigned integer arithmetic and vectorised array operations
 numpy>=1.24
+# SymPy for efficient prime number generation used in SHA-256 constant computation
 sympy>=1.11
