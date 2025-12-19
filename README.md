@@ -29,7 +29,7 @@ The [`block_parse`](problems.ipynb#problem-3-padding) function implements the pa
 The compression function simulates 64 SHA-256 rounds using [`get_message_blocks`](problems.ipynb#problem-4-hashes). Results are verified against theoretical values for accuracy.  
 
 **Problem 5: Passwords**  
-A real-world application demonstrates **dictionary attacks** on SHA-256 hashed passwords using the included wordlist. 
+A real-world application demonstrates **dictionary attacks** on SHA-256 hashed passwords using [`find_password`](problems.ipynb#problem-4-hashes) and the included wordlist. 
 
 ---
 
